@@ -1,6 +1,5 @@
 #pragma once
 
-
 typedef std::function<void(TpEdgeWrapper&, const Real2&, DRealArray&)> CurveMeshFun;
 typedef SurfMeshData0<6> MyShellMesh;
 typedef std::function<int(SurfEvalFunctor& tpface, MyShellMesh& msh, Int2IntMap& node_map)> BackgroundSurfaceMeshFun;
